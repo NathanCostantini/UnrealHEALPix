@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "UnrealHEALPix",
-	"Description": "",
+	"Description": "Bridge between Unreal and HEALPix",
 	"Category": "Other",
 	"CreatedBy": "Nathan Costantini",
 	"CreatedByURL": "",
@@ -18,7 +18,8 @@
 		{
 			"Name": "UnrealHEALPix",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [ "Win64" ]
 		}
 	]
 }
